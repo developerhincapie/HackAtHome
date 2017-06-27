@@ -3,7 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HackAtHome.CustomAdapters", "HackAtHome.CustomAdapters\HackAtHome.CustomAdapters.shproj", "{29F4738A-FEAA-4594-815A-C9487C06D846}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HackAtHome.Entities", "HackAtHome.Entities\HackAtHome.Entities.shproj", "{A92E1092-E46D-4F3D-9965-2F738BFC52E9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HackAtHome.SAL", "HackAtHome.SAL\HackAtHome.SAL.shproj", "{695E7811-B251-41E0-B4A9-10BA1A629821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAtHomeClient", "HackAtHomeClient\HackAtHomeClient.csproj", "{B8E8C508-7434-4A9F-B2E4-312E73F55539}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HackAtHome.CustomAdapters\HackAtHome.CustomAdapters.projitems*{29f4738a-feaa-4594-815a-c9487c06d846}*SharedItemsImports = 13
+		HackAtHome.SAL\HackAtHome.SAL.projitems*{695e7811-b251-41e0-b4a9-10ba1a629821}*SharedItemsImports = 13
+		HackAtHome.Entities\HackAtHome.Entities.projitems*{a92e1092-e46d-4f3d-9965-2f738bfc52e9}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E8C508-7434-4A9F-B2E4-312E73F55539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E8C508-7434-4A9F-B2E4-312E73F55539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E8C508-7434-4A9F-B2E4-312E73F55539}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8E8C508-7434-4A9F-B2E4-312E73F55539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E8C508-7434-4A9F-B2E4-312E73F55539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E8C508-7434-4A9F-B2E4-312E73F55539}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
