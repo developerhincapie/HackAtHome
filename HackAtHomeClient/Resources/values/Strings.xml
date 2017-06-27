@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">HackAtHomeClient</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Hack@Home</string>
+  <string name="UserName">Correo:</string>
+  <string name="Password">Contraseña:</string>
+  <string name="ButtonValidate">Validar</string>
 </resources>

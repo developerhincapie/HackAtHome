@@ -34,7 +34,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:layout_gravity="center_horizontal" />
-<!-- Widget Removed Conflict | source:land, id:@+id/linearLayout1 -->
-<!-- Property Change Conflict | source:land, id:@+id/linearLayout1 | minWidth=25px, minHeight=25px -->
-<!-- Widget Removed Conflict | source:land, id:@+id/linearLayout1 -->
 </LinearLayout>

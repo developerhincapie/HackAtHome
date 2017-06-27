@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="UserName">Email:</string>
+<string name="Password">Password:</string>
+<string name="ButtonValidate">Validate</string>
+</resources>
+
