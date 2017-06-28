@@ -10,4 +10,12 @@
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Status.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResultInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LabItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EvidenceDetail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evidence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserInfo.cs" />
+  </ItemGroup>
 </Project>

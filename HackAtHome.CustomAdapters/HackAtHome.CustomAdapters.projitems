@@ -10,4 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)EvidenceAdapter.cs" />
+  </ItemGroup>
 </Project>

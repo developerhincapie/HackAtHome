@@ -10,4 +10,16 @@
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MicrosoftServiceClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Resource.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)HackAtHome.SAL.csproj" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\AboutResources.txt" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Values\Strings.xml" />
+    <None Include="$(MSBuildThisFileDirectory)packages.config" />
+  </ItemGroup>
 </Project>

@@ -2,7 +2,9 @@
 <resources>
   <string name="Hello">Hello World, Click Me!</string>
   <string name="ApplicationName">Hack@Home</string>
-  <string name="UserName">Correo:</string>
-  <string name="Password">Contraseña:</string>
+  <string name="EmailText">Correo:</string>
+  <string name="PasswordText">Contraseña:</string>
   <string name="ButtonValidate">Validar</string>
+  <string name="EvidenceText">Evidencias</string>
+  <string name="DescriptionText">Descripción</string>	
 </resources>
